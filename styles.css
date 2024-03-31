@@ -1,0 +1,97 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #f0f0f0;
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+.inicio{
+  color: #f0f0f0;
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+.header {
+  background-color: orange;
+  padding: 20px 0;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.container {
+  margin-top: 120px; /* Margem para centralizar */
+}
+
+.button-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.button-list li {
+  margin-bottom: 20px;
+}
+
+.button {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  font-size: 20px; /* Aumento do tamanho do texto */
+  transition: background-color 0.3s ease; /* Adicionando transição de cor */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(50% - 20px); /* Metade da largura do site, com margens */
+  margin: auto; /* Centraliza os botões */
+}
+
+.button:hover {
+  background-color: #f0f0f0;
+}
+
+.participant-name {
+  margin-left: 10px;
+}
+
+.participant-photo {
+  width: 80px;
+  height: 80px;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.confirm-vote-button {
+  display: none; /* Inicialmente oculto */
+  margin: 20px auto; /* Centralizar horizontalmente */
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.confirm-vote-button:hover {
+  background-color: #45a049;
+}
+
+.vote-message {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.ad-container {
+  /* Estilo para sua div de anúncios */
+}
